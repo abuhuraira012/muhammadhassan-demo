@@ -1,25 +1,16 @@
- html{
+html,
+body {
   height: 100%;
   margin: 0;
   font-size: 16px;
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.8em;
-  color:grey;
-} 
-
-body{
-  height: 100%;
-  margin: 0;
-  font-size: 16px;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  line-height: 1.8em;
-  color:grey;
+  color: #666;
 }
 .pimg1 {
   background-image: url(images/image1.png);
-  height: 100%;
+  min-height: 100%;
 }
 .pimg2 {
   background-image: url(images/image2.png);
@@ -33,9 +24,9 @@ body{
 .pimg2,
 .pimg3 {
   position: relative;
-  /* background-position: center; */
+  background-position: center;
   background-size: cover;
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
@@ -44,14 +35,13 @@ body{
   top: 50%;
   width: 100%;
   text-align: center;
-  color: blue;
+  color: black;
   font-size: 27px;
   letter-spacing: 8px;
   text-transform: uppercase;
 }
 .textBg {
   background: #313534;
-
   color: #fff;
   padding: 20px;
 }
